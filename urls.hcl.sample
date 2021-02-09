@@ -1,0 +1,20 @@
+wait = "100ms"
+
+job {
+  url    = "https://url.example.net"
+  count  = 50
+  method = "GET"
+}
+
+job {
+  url    = "http://www.example.net"
+  count  = 50
+  method = "GET"
+}
+
+job {
+  url    = "http://127.0.0.1:8080"
+  count  = 50
+  method = "GET"
+  host   = "www.example.net"
+}
